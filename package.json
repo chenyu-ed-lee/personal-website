@@ -1,0 +1,8 @@
+{
+  "name": "personal_website",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.2.0",
+    "mongoose": "4.1.1"
+	}
+}
