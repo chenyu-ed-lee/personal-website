@@ -1,7 +1,16 @@
+var mongoose = require('mongoose');
+var Project = mongoose.model('Project');
+
 module.exports = (function() {
 	return {
 		show: function(req, res){
-			console.log('im here');
+			Project.find({}, function(error, result) {
+				if(error) {
+					console.log(error);
+				} else {
+					res.json(result);
+				}
+			})			
 		}
 	}
 })();
