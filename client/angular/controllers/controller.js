@@ -3,7 +3,7 @@ myApp.controller('appController', function($scope, $routeParams, appFactory) {
 	showProjects();
 
 	function showProjects() {
-		appFactory.getEvents(function(output) {
+		appFactory.getProjects(function(output) {
 			$scope.projects = output
 		})
 	}
