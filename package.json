@@ -1,19 +1,5 @@
 {
-  "name": "personal_website",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "^4.2.0",
-    "mongoose": "4.1.1"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "description": "Ed C. Lee's personal portfolio website.",
-  "main": "server.js",
-  "devDependencies": {},
-  "author": "Ed Lee",
-  "license": "ISC",
-  "engines": {
-    "node": "0.10.x"
-  }
+	"dependencies": {
+		"express": "^4.2.0"
+	}
 }
