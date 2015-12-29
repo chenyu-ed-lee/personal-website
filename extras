@@ -1,0 +1,92 @@
+<section id="exp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experience</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <h2>Box</h2>
+                    <h4>Metadata Support Ops</h4>
+                    <p>Nov 2014 to May 2015</p>
+                </div>
+                <div class="details">
+                    <p>
+                        At Box, I worked closely with the Metadata team as a support ops. Box was the first technology company where I experienced the tech culture. Not only that, I was very grateful that I had the opportunity to work along side with some of smartest engineers because they are the ones who inspired me to learn and strive for more. During my time there, my main responsibility was to help Box's clients to set up Metadata template feature, conduct demos, and answer any questions related to the feature.
+                    </p> 
+                    <p>
+                        While at Box, I helped migrate Box's Content and View API documentations onto a third party platform named Readme.io: <a href="https://box-content.readme.io/reference" target="_blank">check it out here</a>. It was my first exposure to APIs. 
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="text-center">
+                    <h2>Little Ivy Education</h2>
+                    <h4>Program Manager</h4>
+                    <p>Aug 2013 to July 2014</p>
+                </div>
+                <div class="details">
+                    <p>
+                        Little Ivy Education was an educational startup located in Brooklyn, NY and it was trying to bring positive changes to the neigborhood that it was serving. I hopped on board in hoping to make a change to the children in their education/future. While studying for my Master's degree at NYU, I saw a different reality in some of the rougher neigborhoods. I felt compelled to offer assistance in any shape or form and that was when I decided to become the Program Manager at Little Ivy.
+                    </p>
+                    <p>
+                        At the time, I contributed by offering what I learned from NYU and I had to wear many hats to ensure the operational and finanical aspects were running at 100%. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <aside class="bg-dark"></aside>
+    <section id="edu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Education</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center">
+                <h2>New York University</h2>
+                <h4>M.S. in Business Management - 2012 to 2014</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="text-center">
+                <h2>UC Irvine</h2>
+                <h4>B.A. in Business Economics - 2007 to 2011</h4>
+            </div>
+        </div>
+    </section>
+    <aside class="bg-dark"></aside>
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center"><h4>JavaScript</h4></div>
+                <div class="col-md-4 text-center"><h4>AngularJS</h4></div>
+                <div class="col-md-4 text-center"><h4>Node.js</h4></div>
+                <div class="col-md-4 text-center"><h4>Ruby</h4></div>
+                <div class="col-md-4 text-center"><h4>Rails</h4></div>
+                <div class="col-md-4 text-center"><h4>Socket.IO</h4></div>
+                <div class="col-md-4 text-center"><h4>HTML</h4></div>
+                <div class="col-md-4 text-center"><h4>CSS</h4></div>
+                <div class="col-md-4 text-center"><h4>jQuery</h4></div>
+                <div class="col-md-4 text-center"><h4>PHP</h4></div>
+                <div class="col-md-4 text-center"><h4>Codeigniter</h4></div>
+                <div class="col-md-4 text-center"><h4>MySQL</h4></div>
+            </div>
+        </div>
+    </section>
+    <aside class="bg-dark"></aside>
