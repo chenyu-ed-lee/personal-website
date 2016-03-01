@@ -69,7 +69,7 @@
             <div class="header-content-inner">
                 <h1>Ed C. Lee</h1>
                 <hr>
-                <div ><img src="img/me.jpg" id="profile_pic"></div>
+                <div><img src="img/me.jpg" class="circular_pic"></div>
                 <h3>I am a Web Developer/Coding Ninja</h3>
                 <!-- <a href="#about" class="btn btn-primary btn-xl page-scroll">Start Here</a> -->
             </div>
@@ -119,13 +119,13 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
 
                     <div class="col-md-6 text-center">
-                        <div class="project" data-toggle="modal" data-target="#myModal">
+                        <h2>TextMe</h2>
+                        <div class="project" data-toggle="modal" data-target="#textmeModal">
                             <div class="portfolio-box">
-                                <img src="img/portfolio/textme.png" class="img-responsive" alt="">
+                                <img src="img/portfolio/textme.png" class="img-responsive" alt="Go to TextMe">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
-                                            <h2>TextMe</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -133,13 +133,13 @@
                         </div>
                     </div>
                     <div class="col-md-6 text-center">
+                        <h2>Yearbook</h2>
                         <div class="project">
                             <a href="https://yearbook-may-2015.herokuapp.com/" class="portfolio-box" target="_blank">
                                 <img src="img/portfolio/yearbook.png" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-name">
-                                            <h2>Yearbook</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -151,21 +151,25 @@
             </div>
 
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+<div id="textmeModal" class="modal fade" role="dialog">
 <div class="modal-dialog">
 
 <!-- Modal content-->
 <div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">TextMe</h4>
-</div>
-<div class="modal-body">
-<p>Some text in the modal.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-</div>
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title" style="text-align:center;">TextMe</h3>
+    </div>
+    <div class="modal-body">
+        <p>TextMe is a simple web application that uses the Twilio API to send SMS notification or reminder to any numbers.</p>
+        <p><strong>Technologies used:</strong> Ruby on Rails, Twilio API, Google Materialize, HTML5, and CSS3.</p>
+        <div style="text-align:center;">
+            <button class="btn btn-default btn-lg"><a href="https://text-me-app.herokuapp.com/" target="_blank">Visit Here!</a></button>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
 </div>
 
 </div>
