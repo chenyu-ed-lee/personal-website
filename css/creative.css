@@ -258,7 +258,7 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    
+    border: solid 5px #F05F40;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -483,7 +483,7 @@ body {
 }
 
 .project {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .circular_pic {
