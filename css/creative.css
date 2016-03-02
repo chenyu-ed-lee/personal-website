@@ -484,6 +484,7 @@ body {
 
 .project {
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .circular_pic {
