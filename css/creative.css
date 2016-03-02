@@ -44,7 +44,6 @@ p {
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    text-align: center;
 }
 
 .bg-primary {
@@ -233,6 +232,7 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
+
 }
 
 .section-heading {
@@ -311,6 +311,12 @@ header .header-content .header-content-inner p {
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        text-align: center;
     }
 }
 

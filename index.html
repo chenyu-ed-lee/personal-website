@@ -120,8 +120,8 @@
 
                     <div class="col-md-6 text-center">
                         <h2>TextMe</h2>
-                        <div class="project" data-toggle="modal" data-target="#textmeModal">
-                            <div class="portfolio-box">
+                        <div class="project">
+                            <div data-toggle="modal" data-target="#textmeModal" class="portfolio-box">
                                 <img src="img/portfolio/textme.png" class="img-responsive" alt="Go to TextMe">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
@@ -135,7 +135,7 @@
                     <div class="col-md-6 text-center">
                         <h2>Yearbook</h2>
                         <div class="project">
-                            <a href="https://yearbook-may-2015.herokuapp.com/" class="portfolio-box" target="_blank">
+                            <div data-toggle="modal" data-target="#yearbookModal" class="portfolio-box">
                                 <img src="img/portfolio/yearbook.png" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
@@ -143,37 +143,56 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-
-<!-- Modal -->
-<div id="textmeModal" class="modal fade" role="dialog">
-<div class="modal-dialog">
-
-<!-- Modal content-->
-<div class="modal-content">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title" style="text-align:center;">TextMe</h3>
-    </div>
-    <div class="modal-body">
-        <p>TextMe is a simple web application that uses the Twilio API to send SMS notification or reminder to any numbers.</p>
-        <p><strong>Technologies used:</strong> Ruby on Rails, Twilio API, Google Materialize, HTML5, and CSS3.</p>
-        <div style="text-align:center;">
-            <button class="btn btn-default btn-lg"><a href="https://text-me-app.herokuapp.com/" target="_blank">Visit Here!</a></button>
+    <!-- Modal -->
+    <div id="yearbookModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="yearbookModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <!-- Modal content for Yearbook -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title" style="text-align:center;">Yearbook</h2>
+                </div>
+                <div class="modal-body">
+                    <p>An interactive and dynamic AngularJS yearbook application made for the students of the Coding Dojo May 2015 Cohort.</p>
+                    <p><strong>Technologies used:</strong> AngularJS, Node.js, Express.js, Twitter Bootstrap, HTML5, and CSS3.</p>
+                    <div style="text-align:center;">
+                        <button class="btn btn-default btn-lg"><a href="https://yearbook-may-2015.herokuapp.com/" target="_blank">Visit Here!</a></button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!-- Modal -->
+    <div id="textmeModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="textmeModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <!-- Modal content for TextMe -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title" style="text-align:center;">TextMe</h2>
+                </div>
+                <div class="modal-body">
+                    <p>TextMe is a simple web application that uses the Twilio API to send SMS notification or reminder to any numbers.</p>
+                    <p><strong>Technologies used:</strong> Ruby on Rails, Twilio API, Google Materialize, HTML5, and CSS3.</p>
+                    <div style="text-align:center;">
+                        <button class="btn btn-default btn-lg"><a href="https://text-me-app.herokuapp.com/" target="_blank">Visit Here!</a></button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-</div>
-</div>
     </section>
     <aside class="bg-dark"></aside>
     <section id="contact">
@@ -211,6 +230,7 @@
             </div>
         </div>
     </section>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
